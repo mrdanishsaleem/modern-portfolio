@@ -8,7 +8,7 @@
 :root {
   --color-primary: #191d2b;
   --color-secondary: #69359c;
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -18,12 +18,12 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #27AE60;
+  --color-primary: #ffffff;
+  --color-secondary: #27ae60;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -637,11 +637,11 @@ section {
 }
 
 .main-btn:active .control2 {
-  background-color: #27AE60;
+  background-color: #27ae60;
 }
 
 .btn-icon .fa-arrow-right {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
 }
 
 .contact-content-con .left-contact .contact-icon a {
