@@ -456,87 +456,7 @@ section {
   margin-top: 3rem;
 }
 
-.portfolios .portfolio-item {
-  position: relative;
-  border-radius: 15px;
-}
-
-.portfolios .portfolio-item img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.portfolios .portfolio-item .hover-items {
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-secondary);
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0;
-  transform: scale(0);
-  transition: all 0.4s ease-in-out;
-}
-
-.portfolios .portfolio-item .hover-items h3 {
-  font-size: 1.5rem;
-  color: var(--color-white);
-  margin-bottom: 1.5rem;
-}
-
-.portfolios .portfolio-item .hover-items .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon {
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 1rem;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon i {
-  font-size: 1.5rem;
-  color: var(--color-white);
-  margin: 0 1rem;
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon:hover {
-  background-color: var(--color-white);
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon:hover i {
-  color: var(--color-primary);
-}
-
-.portfolio-item:hover .hover-items {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.blogs {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
-}
-
-.blogs .blog {
+.portfolios .portfolio {
   position: relative;
   background-color: var(--color-grey-5);
   border-radius: 5px;
@@ -544,19 +464,19 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-.blogs .blog:hover {
+.portfolios .portfolio:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
 
-.blogs .blog:hover img {
+.portfolios .portfolio:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
 }
 
-.blogs .blog img {
+.portfolios .portfolio img {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -566,24 +486,24 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-.blogs .blog .blog-text {
+.portfolios .portfolio .portfolio-text {
   margin-top: -7px;
   padding: 1.1rem;
   border-top: 8px solid var(--color-secondary);
 }
 
-.blogs .blog .blog-text h4 {
+.portfolios .portfolio .portfolio-text h4 {
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
-.blogs .blog .blog-text h4:hover {
+.portfolios .portfolio .portfolio-text h4:hover {
   color: var(--color-secondary);
 }
 
-.blogs .blog .blog-text p {
+.portfolios .portfolio .portfolio-text p {
   color: var(--color-grey-2);
   line-height: 2rem;
   padding-bottom: 1rem;
@@ -883,7 +803,7 @@ section {
     margin-top: 1rem;
   }
 
-  .blogs {
+  .portfolios {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
@@ -974,7 +894,7 @@ section {
 }
 
 @media screen and (max-width: 1250px) {
-  .blogs {
+  .portfolios {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
   }
@@ -989,7 +909,7 @@ section {
 }
 
 @media screen and (max-width: 660px) {
-  .blogs {
+  .portfolios {
     grid-template-columns: repeat(1, 1fr);
   }
 
