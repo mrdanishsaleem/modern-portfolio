@@ -325,6 +325,7 @@ section {
   grid-gap: 2rem;
   padding-bottom: 3rem;
   font-size: 3rem;
+  justify-items: center;
 }
 
 /*Timeline*/
