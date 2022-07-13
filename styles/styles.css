@@ -296,78 +296,11 @@ section {
   text-transform: uppercase;
 }
 
-.about-stats {
+.about-skills {
   padding-bottom: 4rem;
 }
 
-.about-stats .progress-bars {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-}
-
-.about-stats .progress-bars .progress-bar {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-stats .progress-bars .progress-bar .prog-title {
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con {
-  display: flex;
-  align-items: center;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .prog-text {
-  color: var(--color-grey-2);
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress {
-  width: 100%;
-  height: 0.45rem;
-  background-color: var(--color-grey-4);
-  margin-left: 1rem;
-  position: relative;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background-color: var(--color-secondary);
-  transition: all 0.4s ease-in-out;
-  width: 60%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
-}
-
-.stat-title {
+.skill-title {
   text-transform: uppercase;
   font-size: 1.4rem;
   text-align: center;
@@ -375,7 +308,7 @@ section {
   position: relative;
 }
 
-.stat-title::before {
+.skill-title::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -384,6 +317,13 @@ section {
   height: 1px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
 }
 
 /*Timeline*/
@@ -793,7 +733,7 @@ section {
     padding: 2rem 2.5rem !important;
   }
 
-  .about-stats .progress-bars {
+  .about-skills .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -982,7 +922,7 @@ section {
     padding: 7rem 3rem;
   }
 
-  .about-stats .progress-bars {
+  .about-skills .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
 
