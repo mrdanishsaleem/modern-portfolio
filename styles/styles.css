@@ -949,4 +949,8 @@ section {
   }
 }
 
+.dark-mode #bmc-wbtn {
+  background: #69359c !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
